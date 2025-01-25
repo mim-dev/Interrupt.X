@@ -1,0 +1,19 @@
+# adapated from microchip guidance - 
+#  https://developerhelp.microchip.com/xwiki/bin/view/software-tools/x/version-control/working-with-version-control/
+
+# Project Directory
+
+/.generated_files/
+/build/
+/dist/
+/debug/
+/queuelogs/
+
+*mc3.bak*
+defmplabxtrace*.*
+
+# nbproject directory
+
+/nbproject/Makefile-*
+/nbproject/Package-*
+/nbproject/private/

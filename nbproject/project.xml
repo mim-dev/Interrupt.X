@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>com.microchip.mplab.nbide.embedded.makeproject</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/make-project/1">
+            <name>Interrupt</name>
+            <creation-uuid>252b8d66-97a0-4778-b0b3-cd80e4363d92</creation-uuid>
+            <make-project-type>0</make-project-type>
+            <sourceEncoding>ISO-8859-1</sourceEncoding>
+            <make-dep-projects/>
+            <sourceRootList>
+                <sourceRootElem>src/include</sourceRootElem>
+                <sourceRootElem>src/modules/gpiomodule</sourceRootElem>
+                <sourceRootElem>src/modules/interruptmodule</sourceRootElem>
+                <sourceRootElem>src/modules/systemmodule</sourceRootElem>
+                <sourceRootElem>src/modules/timermodule</sourceRootElem>
+            </sourceRootList>
+            <confList>
+                <confElem>
+                    <name>default</name>
+                    <type>2</type>
+                </confElem>
+            </confList>
+            <formatting>
+                <project-formatting-style>false</project-formatting-style>
+            </formatting>
+        </data>
+    </configuration>
+</project>
