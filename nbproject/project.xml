@@ -9,11 +9,7 @@
             <sourceEncoding>ISO-8859-1</sourceEncoding>
             <make-dep-projects/>
             <sourceRootList>
-                <sourceRootElem>src/include</sourceRootElem>
-                <sourceRootElem>src/modules/gpiomodule</sourceRootElem>
-                <sourceRootElem>src/modules/interruptmodule</sourceRootElem>
-                <sourceRootElem>src/modules/systemmodule</sourceRootElem>
-                <sourceRootElem>src/modules/timermodule</sourceRootElem>
+                <sourceRootElem>.</sourceRootElem>
             </sourceRootList>
             <confList>
                 <confElem>

@@ -45,11 +45,7 @@
     </logicalFolder>
   </logicalFolder>
   <sourceRootList>
-    <Elem>src/include</Elem>
-    <Elem>src/modules/gpiomodule</Elem>
-    <Elem>src/modules/interruptmodule</Elem>
-    <Elem>src/modules/systemmodule</Elem>
-    <Elem>src/modules/timermodule</Elem>
+    <Elem>.</Elem>
   </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
