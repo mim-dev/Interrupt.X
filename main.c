@@ -34,16 +34,14 @@ void main(void) {
 void __interrupt(high_priority) interruptHandler(void) {
     
     if(PIR0bits.TMR0IF == 1) {
+       
         
-        uint8_t currentValue = LATA;
-        
-        if(currentValue == 0xF0) {
-            currentValue &= 0x0F;
+        if((LATA & 0xF0) == 0xF0) {
+            LATA &= 0x0F;
         } else {
-            currentValue += 0x10;
+            LATA += 0x10;
         }
         
-        LATA = currentValue;
         PIR0bits.TMR0IF = 0;
     }
     
