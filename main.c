@@ -36,10 +36,11 @@ void __interrupt(high_priority) interruptHandler(void) {
     if(PIR0bits.TMR0IF == 1) {
         
         uint8_t currentValue = LATA;
-        currentValue += 0x10;
         
-        if(currentValue > 0xF0) {
-            currentValue = 0;
+        if(currentValue == 0xF0) {
+            currentValue &= 0x0F;
+        } else {
+            currentValue += 0x10;
         }
         
         LATA = currentValue;

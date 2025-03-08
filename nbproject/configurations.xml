@@ -57,11 +57,11 @@
         <targetPluginBoard></targetPluginBoard>
         <platformTool>pkob4hybrid</platformTool>
         <languageToolchain>XC8</languageToolchain>
-        <languageToolchainVersion>2.46</languageToolchainVersion>
-        <platform>4</platform>
+        <languageToolchainVersion>3.00</languageToolchainVersion>
+        <platform>3</platform>
       </toolsSet>
       <packs>
-        <pack name="PIC18F-Q_DFP" vendor="Microchip" version="1.25.433"/>
+        <pack name="PIC18F-Q_DFP" vendor="Microchip" version="1.26.442"/>
       </packs>
       <ScriptingSettings>
       </ScriptingSettings>
